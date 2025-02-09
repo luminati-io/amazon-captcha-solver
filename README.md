@@ -61,7 +61,7 @@ function getCaptchaOptions(captchaType, customOptions = {}) {
     hCaptcha: { selector: '.h-captcha', success_selector: '.hcaptcha-success' },
     PerimeterX: { selector: '#px-captcha', success_selector: '#px-success' },
     SimpleCaptcha: { selector: '.simple-captcha', success_selector: '.captcha-done' },
-    Amazon CAPTCHA: { selector: '.Amazon CAPTCHA', success_selector: '.Amazon CAPTCHA-success' },
+    FunCaptcha: { selector: '.funcaptcha', success_selector: '.funcaptcha-success' },
     CloudflareTurnstile: { selector: '.cf-turnstile', success_selector: '.cf-success' },
     AWSWAF: { selector: '#aws-waf-captcha', success_selector: '#aws-waf-success' },
     GeeTest: { selector: '.geetest-captcha', success_selector: '.geetest-success' },
